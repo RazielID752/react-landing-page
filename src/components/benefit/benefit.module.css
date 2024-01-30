@@ -76,7 +76,7 @@
     flex-direction: column;
   }
   .containerWrapperIcons::before{
-    width: 50vh;
-    height: 330vh;
+    height: 300vh;
+    max-height: 1700px;
   }
 }
