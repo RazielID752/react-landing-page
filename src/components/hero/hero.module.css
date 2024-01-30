@@ -1,0 +1,42 @@
+.heroWrapper {
+  padding: 4rem 1rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroWrapper h1{
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+.heroWrapper h1 span{
+  font-weight: 700;
+}
+
+.heroWrapper p{
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  max-width: 50ch;
+}
+
+.buttonWrapper{
+  display: flex;
+  gap: 2rem;
+}
+
+@media(max-width:600px){
+  .heroWrapper h1{
+    font-size: 30px;
+  }
+  .heroWrapper p{
+    font-size: 16px;
+  }
+}

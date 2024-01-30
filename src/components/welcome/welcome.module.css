@@ -1,0 +1,22 @@
+.welcome{
+  background: #1A1D28;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.wrapperWelcome{
+  padding: 64px 16px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapperWelcome h2{
+  color: var(--title-primary);
+  font-size: 2.5rem;
+  max-width: 25ch;
+  text-align: center;
+  font-weight: 500;
+}

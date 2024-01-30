@@ -1,0 +1,82 @@
+
+.Benefit{
+  background: #1A1D28;
+  padding: 4rem 1rem
+}
+.containerWrapperIcons{
+  z-index: 2;
+  position: relative;
+}
+.containerWrapperIcons::before{
+  content: "";
+  position: absolute;
+  background: linear-gradient(94deg,#9b51e0 2.84%,#3081ed 99.18%);
+  opacity: 0.4;
+  height: 450px;
+  left: 0;
+  right: 0;
+  max-width: 1280px;
+  width: 200vh;
+  border-radius: 99px;
+  margin: 0 auto;
+  filter: blur(70px);
+  z-index: -1;
+}
+
+.BenefitWrapper {
+  display: flex;
+  padding-bottom: 32px;
+  justify-content:center;
+  margin: 0 auto;
+  max-width: 1280px;
+  gap: 16px;
+}
+
+.boxIconWrapper {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+.BenefitTitle {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.BenefitTitle h2 {
+  font-size: 42px;
+  color: var(--title-primary);
+}
+
+.BenefitTitle p {
+  color: var(--title-second);
+}
+.benefitContainer h3{
+  font-size: 20px;
+  color: var(--title-primary);
+}
+.benefitContainer p{
+  color: var(--title-second);
+  max-width: 35ch;
+  text-align: center;
+}
+
+.boxIcon {
+  padding: 40px;
+  border-radius: 26px;
+  background: #ffffff17;
+  box-shadow: -3.013px 3.013px 3.013px #ffffff63 inset,
+    2.01px -2.01px 20px #d6d6d62b inset;
+  -webkit-backdrop-filter: blur(37.21466827392578px);
+  backdrop-filter: blur(37.21466827392578px);
+}
+
+@media(max-width:600px){
+  .BenefitWrapper{
+    flex-direction: column;
+  }
+  .containerWrapperIcons::before{
+    width: 50vh;
+    height: 330vh;
+  }
+}

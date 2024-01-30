@@ -1,0 +1,31 @@
+/* / Configuração global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-second: #a8a8b3;
+  --title-primary:#fff;
+}
+
+body {
+  background: #181B26;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* // Configuração global */
