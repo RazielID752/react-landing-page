@@ -82,5 +82,6 @@
   .containerWrapperIcons::before{
     height: 300vh;
     max-height: 1700px;
+    max-width: 35vh;
   }
 }
