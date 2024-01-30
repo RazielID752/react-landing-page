@@ -70,6 +70,10 @@
   -webkit-backdrop-filter: blur(37.21466827392578px);
   backdrop-filter: blur(37.21466827392578px);
 }
+.boxIcon:hover{
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.06);
+}
 
 @media(max-width:600px){
   .BenefitWrapper{

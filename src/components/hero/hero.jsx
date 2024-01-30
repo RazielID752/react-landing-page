@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={styles.Hero}>
       <div className={styles.heroWrapper}>
-        <img src={imgHero} alt="" />
+        <img className={styles.logoReactHero} src={imgHero} alt="" />
         <h1>
           <span>Crie diversas interfaces </span>
           rápidas e incríveis usando componentes.

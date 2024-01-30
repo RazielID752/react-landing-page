@@ -8,18 +8,38 @@
   align-items: center;
 }
 
-.heroWrapper h1{
+.logoReactHero {
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logoReactHero {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.heroWrapper h1 {
   font-size: 50px;
   text-align: center;
   color: #fff;
   font-weight: 300;
 }
 
-.heroWrapper h1 span{
+.heroWrapper h1 span {
   font-weight: 700;
 }
 
-.heroWrapper p{
+.heroWrapper p {
   text-align: center;
   color: #fff;
   font-size: 24px;
@@ -27,16 +47,16 @@
   max-width: 50ch;
 }
 
-.buttonWrapper{
+.buttonWrapper {
   display: flex;
   gap: 2rem;
 }
 
-@media(max-width:600px){
-  .heroWrapper h1{
+@media (max-width: 600px) {
+  .heroWrapper h1 {
     font-size: 30px;
   }
-  .heroWrapper p{
+  .heroWrapper p {
     font-size: 16px;
   }
 }

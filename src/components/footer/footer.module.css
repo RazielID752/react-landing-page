@@ -53,6 +53,11 @@ footer {
   color: var(--title-primary);
   font-weight: 300;
 }
+
+.containerUl ul .footerA:hover{
+  color: var(--hover-color);
+}
+
 .containerUl ul .footerTitle{
   font-weight: 600;
   color: var(--title-primary);
@@ -97,7 +102,8 @@ footer {
     align-items: center;
   }
   .FooterP {
-    text-align: center;
+    text-align: left;
+    padding: 8px 16px;
   }
   .FooterSpan {
     padding-top: 1rem;

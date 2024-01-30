@@ -9,9 +9,9 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const links = [
-    { name: "inicio", link: "/" },
+    { name: "início", link: "/" },
     { name: "Apreender", link: "/" },
-    { name: "referencia", link: "/" },
+    { name: "Referência", link: "/" },
     { name: "Comunidade", link: "/" },
   ];
 
